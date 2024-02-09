@@ -1,0 +1,30 @@
+import java.util.Scanner;
+public class ResumeBulider1 {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter you full name: ");
+		String name=sc.nextLine();
+		System.out.println("Enter email address: ");
+		String email=sc.nextLine();
+		System.out.println("Enter phone number: ");
+		String phone=sc.nextLine();
+		System.out.println("Enter address: ");
+		String address=sc.nextLine();
+		System.out.println("Enter professional title: ");
+		String title=sc.nextLine();
+		System.out.println("Enter summary statement: ");
+		String summary=sc.nextLine();
+		System.out.println("\n resume");
+		System.out.println("-----------------------------------------");
+		System.out.println("Name                   : "+name);
+		System.out.println("Email                  : "+email);
+		System.out.println("Phone                  : "+phone);
+		System.out.println("Address                : "+address);
+		System.out.println("-----------------------------------------");
+		System.out.println("Professional Title     : "+title);
+		System.out.println("Summary                : "+summary);
+		
+
+	}
+
+}
